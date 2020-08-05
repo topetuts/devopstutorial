@@ -7,7 +7,7 @@ def hello_world():
     return "hello chris"
 
 @app.route('/2')
-def hello_world():
+def secondroute():
     return "hello 2"
 
 
