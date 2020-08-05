@@ -1,0 +1,3 @@
+variable "herokukey" {
+    type = string
+}
