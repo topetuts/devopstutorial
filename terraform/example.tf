@@ -23,6 +23,6 @@ resource "heroku_app" "devopstutrial" {
 resource "heroku_build" "devopstutrial" {
     app = "chok-terra-sample"
     source = {
-        url = "https://github.com/topetuts/devopstutorial/archive/v1.9.tar.gz"
+        url = "https://github.com/topetuts/devopstutorial/archive/v1.10.tar.gz"
     }
 }
