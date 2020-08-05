@@ -14,15 +14,15 @@ provider "heroku" {
   api_key = var.herokukey
 }
 
-resource "heroku_app" "devopstutiral" {
+resource "heroku_app" "devopstutrial" {
     name = "chok-terra-sample"
     region = "eu"
 
 }
 
-#resource "heroku_build" "myexistingapp" {
-#    app = "chok-terra-sample"
-#    source = {
-#        path = "/root/SocialMap"
-#    }
-#}
+resource "heroku_build" "devopstutrial" {
+    app = "chok-terra-sample"
+    source = {
+        url = "https://github.com/topetuts/devopstutorial/archive/v1.8.tar.gz"
+    }
+}

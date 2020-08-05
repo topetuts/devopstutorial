@@ -54,8 +54,8 @@ workflows:
   my_workflow:
     jobs:
       - build
-      #- terraformdeploy:
-      #    requires:
-      #      - build
+      - terraformdeploy:
+          requires:
+            - build
             
             
