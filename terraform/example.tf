@@ -2,6 +2,7 @@ terraform {
   backend "remote" {
     hostname = "app.terraform.io"
     organization = "topetuts"
+    
 
     workspaces {
       name = "devopstutorial"

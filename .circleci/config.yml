@@ -41,6 +41,7 @@ jobs:
             ls
             echo $PWD
             cd terraform
+            yes | terraform login
             ls
             terraform init
             ls
