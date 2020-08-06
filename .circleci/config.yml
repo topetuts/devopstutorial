@@ -41,11 +41,8 @@ jobs:
             ls
             echo $PWD
             cd terraform
-            terraform login
-            yes
-            Okzh0IEjpaODbA.atlasv1.R9NguEwUbdloWdL39Ni34TQaFDKorBfuhmFndByIAODepMPdn6mqtjQjHTNR1HTkJog
             ls
-            terraform init
+            terraform init -backend-config="token=Okzh0IEjpaODbA.atlasv1.R9NguEwUbdloWdL39Ni34TQaFDKorBfuhmFndByIAODepMPdn6mqtjQjHTNR1HTkJog"
             ls
             terraform plan
 #            terraform apply -auto-approve
