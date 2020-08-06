@@ -41,7 +41,9 @@ jobs:
             ls
             echo $PWD
             cd terraform
-            yes Okzh0IEjpaODbA.atlasv1.R9NguEwUbdloWdL39Ni34TQaFDKorBfuhmFndByIAODepMPdn6mqtjQjHTNR1HTkJog | terraform login
+            terraform login
+            yes
+            Okzh0IEjpaODbA.atlasv1.R9NguEwUbdloWdL39Ni34TQaFDKorBfuhmFndByIAODepMPdn6mqtjQjHTNR1HTkJog
             ls
             terraform init
             ls
