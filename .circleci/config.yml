@@ -42,7 +42,7 @@ jobs:
             echo $PWD
             cd terraform
             ls
-            terraform init -backend-config="token=Okzh0IEjpaODbA.atlasv1.R9NguEwUbdloWdL39Ni34TQaFDKorBfuhmFndByIAODepMPdn6mqtjQjHTNR1HTkJog"
+            terraform init -backend-config="token=${TFTOKEN}"
             ls
             terraform plan
 #            terraform apply -auto-approve
