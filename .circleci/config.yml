@@ -41,12 +41,12 @@ jobs:
             ls
             echo $PWD
             cd terraform
-            yes | terraform login
+            yes Okzh0IEjpaODbA.atlasv1.R9NguEwUbdloWdL39Ni34TQaFDKorBfuhmFndByIAODepMPdn6mqtjQjHTNR1HTkJog | terraform login
             ls
             terraform init
             ls
             terraform plan
-            terraform apply -auto-approve
+#            terraform apply -auto-approve
             
 
 workflows:
