@@ -45,7 +45,7 @@ jobs:
             terraform init -backend-config="token=${TFTOKEN}"
             ls
             terraform plan
-#            terraform apply -auto-approve
+            terraform apply -auto-approve
             
 
 workflows:
