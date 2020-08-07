@@ -24,6 +24,6 @@ resource "heroku_app" "devopstutrial" {
 resource "heroku_build" "devopstutrial" {
     app = "${heroku_app.devopstutrial.id}"
     source = {
-        url = "https://github.com/topetuts/devopstutorial/archive/v2.2.tar.gz"
+        url = "https://github.com/topetuts/devopstutorial/archive/v3.0.tar.gz"
     }
 }
